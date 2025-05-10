@@ -1,7 +1,5 @@
 __version__ = '0.0.0'
 
-from serial.tools.list_ports import comports
-
 from kivy.app import App
 from kivy.clock import Clock
 from kivy.uix.label import Label
