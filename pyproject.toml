@@ -1,8 +1,7 @@
 [build-system]
 requires = [
   "kivy[base]",
-  "pyserial",
-  "ledboardclientfull@git+https://github.com/MrFrangipane/led-client-full"
+  "ledboardlib@git+https://github.com/Frangitron/ledboard-lib",
 ]
 build-backend = "setuptools.build_meta"
 

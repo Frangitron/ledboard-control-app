@@ -7,10 +7,10 @@ from kivy.uix.button import Button
 from kivy.uix.dropdown import DropDown
 from kivy.uix.slider import Slider
 
-from ledboardclientfull.serial_communication.c_structs import ControlParametersStruct
+from lebboardlib.serial_communication.c_structs.control_parameters import ControlParametersStruct
 from pythonarduinoserial.usbserial.api import get_usb_serial
 
-from ledboardclientfull.board_api import BoardApi
+from lebboardlib.board_api import BoardApi
 
 
 class LEDBoardControlApp(App):
