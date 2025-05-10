@@ -1,6 +1,7 @@
 [build-system]
 requires = [
-  "kivy[base]"
+  "kivy[base]",
+  "pyserial"
 ]
 build-backend = "setuptools.build_meta"
 
