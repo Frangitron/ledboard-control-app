@@ -37,7 +37,7 @@ version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,pyserial
+requirements = python3,kivy,pyserial,usb4a,usbserial4a
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -98,7 +98,7 @@ fullscreen = 0
 #android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18)
 
 # (list) features (adds uses-feature -tags to manifest)
-android.features = android.hardware.usb.host
+#android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
 #android.api = 31

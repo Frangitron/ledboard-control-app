@@ -6,11 +6,14 @@ from kivy.app import App
 from kivy.clock import Clock
 from kivy.uix.label import Label
 
+from usb4a import usb
+
 
 class LEDBoardControlApp(App):
 
     def list_com_ports(self, label: Label):
-        label.text = '\n'.join([port.name for port in comports()])
+
+        label.text = '\n'.join([device.getDeviceName() for device in usb.get_usb_device_list()])
 
     def build(self):
         label = Label(text='', font_size=100)
