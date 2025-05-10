@@ -4,6 +4,7 @@ requires = [
   "kivy[base]",
   "ledboardlib@git+https://github.com/Frangitron/ledboard-lib",
 ]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "ledboardcontrolapp"
@@ -23,5 +24,3 @@ classifiers = [
 ]
 keywords = ["python", "frangitron"]
 dynamic = ["version"]
-
-build-backend = "setuptools.build_meta"
