@@ -1,9 +1,8 @@
 [build-system]
 requires = [
   "kivy[base]",
-  "jnius",
-  "usb4a",
-  "usbserial4a",
+  "pyserial",
+  "ledboardclientfull@git+https://github.com/MrFrangipane/led-client-full"
 ]
 build-backend = "setuptools.build_meta"
 

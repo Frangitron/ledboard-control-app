@@ -37,7 +37,7 @@ version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,usb4a,usbserial4a
+requirements = python3,kivy,usb4a,usbserial4a,https://github.com/MrFrangipane/led-client-full/archive/refs/heads/main.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
