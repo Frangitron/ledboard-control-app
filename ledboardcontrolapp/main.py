@@ -7,7 +7,6 @@ from kivy.clock import Clock
 from kivy.uix.label import Label
 
 
-
 class LEDBoardControlApp(App):
 
     def list_com_ports(self, label: Label):
