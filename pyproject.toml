@@ -1,5 +1,6 @@
 [build-system]
 requires = [
+  "setuptools",
   "kivy[base]",
   "ledboardlib@git+https://github.com/Frangitron/ledboard-lib",
 ]
