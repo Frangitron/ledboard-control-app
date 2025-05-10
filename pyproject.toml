@@ -1,6 +1,5 @@
 [build-system]
 requires = [
-  "setuptools",
   "kivy[base]",
   "ledboardlib@git+https://github.com/Frangitron/ledboard-lib",
 ]
@@ -23,3 +22,7 @@ classifiers = [
 ]
 keywords = ["python", "frangitron"]
 dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools>=46.0"]
+build-backend = "setuptools.build_meta"
